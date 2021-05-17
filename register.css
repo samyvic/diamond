@@ -63,6 +63,7 @@ a{
 .cover{
   height: 75vh;
   overflow: hidden;
+  margin-top: 98px;
 }
 .cover .container img{
   width:100%;
