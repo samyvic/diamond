@@ -61,8 +61,10 @@ a{
 
 /* Start Cover*/
 .cover{
-  height: 75vh;
   overflow: hidden;
+}
+.cover .container{
+  height:auto;
 }
 .cover .container img{
   width:100%;

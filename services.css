@@ -61,8 +61,11 @@ a{
 
 /* Start Cover*/
 .cover{
-  height: 75vh;
   overflow: hidden;
+  margin-top: 98px;
+}
+.cover .container{
+  height:auto;
 }
 .cover .container img{
   width:100%;
@@ -222,9 +225,7 @@ a{
   .nav img {
     margin: 20px 10px;
   }
-  .cover{
-    height: 50vh;
-  }
+
   .services p{
     padding: 0 10%;
   }
@@ -245,9 +246,7 @@ a{
     padding: 10px;
     font-size: 18px;
   }
-  .cover{
-    height: 60vh;
-  }
+
   .services p{
     padding: 0 10%;
   }
@@ -268,9 +267,7 @@ a{
     padding: 20px;
     font-size: 20px;
   }
-  .cover{
-    height: 75vh;
-  }
+
   .services p{
     padding: 0 10%;
   }
