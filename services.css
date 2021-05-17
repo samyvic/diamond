@@ -266,16 +266,14 @@ a{
     font-size: 20px;
   }
   .cover{
-    height: 80vh;
+    height: 75vh;
   }
   .services p{
     padding: 0 10%;
   }
 }
 @media(min-width: 992px){
-  .cover{
-    height: 90vh;
-  }
+
   .services .row .box-3{
     width: 30%;
   }
@@ -288,8 +286,6 @@ a{
   }
 }
 @media(min-width: 1200px){
-  .cover{
-    height: 100vh;
-  }
+
 }
 /* Responsive */
