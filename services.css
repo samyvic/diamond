@@ -217,7 +217,10 @@ a{
 @media(max-width: 575px){
   .nav span{
     padding: 20px 8px;
-    font-size: 18px;
+    font-size: 16px;
+  }
+  .nav img {
+    margin: 20px 0px;
   }
   .cover{
     height: 50vh;
