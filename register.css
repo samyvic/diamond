@@ -62,7 +62,7 @@ a{
 /* Start Cover*/
 .cover{
   overflow: hidden;
-
+  margin-top: 98px;
 }
 .cover .container{
   height:auto;
