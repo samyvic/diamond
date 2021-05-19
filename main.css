@@ -18,6 +18,9 @@ a{
   display: table;
 }
 /* Start Nav*/
+.mobile-nav{
+  display: none;
+}
 .nav{
   background-color: white;
   position: fixed;
@@ -493,14 +496,79 @@ a{
 
 /* Responsive */
 @media(max-width: 575px){
-  .nav span{
-    padding: 20px 8px;
-    font-size: 16px;
+  .mobile-nav{
+    display: block;
+    background-color: white;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 1000;
+    overflow: hidden;
   }
-  .nav img {
-    margin: 20px 10px;
+  .mobile-nav .mobile-container {
+
+    background-color: #fff;
+    overflow: hidden;
+  }
+  .mobile-nav .topnav{
+    overflow: hidden;
+    display: block;
+    position: relative;
   }
 
+  #myLinks {
+    display: none;
+  }
+
+  .myLinks a{
+    display: none;
+    color: #1259a1;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+  }
+  .mobile-nav .logo{
+    float: left;
+  }
+  .mobile-nav img {
+    vertical-align: middle;
+    width: 100px;
+    padding: 20px;
+
+    display: block;
+  }
+  .mobile-nav .topnav a.icon {
+    background: #FD8505;
+    color: white;
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    right: 0;
+    top: 0;
+    padding: 25px;
+  }
+
+  .mobile-nav .myLinks a:hover {
+    background-color: #FD8505;
+    color: white;
+  }
+
+  .mobile-nav .active{
+    background-color: #FD8505;
+    color: white;
+    font-weight: bold;
+  }
+
+
+  .nav{
+    display: none;
+  }
+
+  .cover{
+    margin-top: 70px;
+
+  }
   .img-overlay{
     opacity: 0.75;
   }
@@ -508,7 +576,7 @@ a{
     margin-left: auto;
     margin-right: auto;
     padding: 30px 3px;
-    top: 15%;
+    top: 20%;
     -ms-transform: translateY(-15%);
     transform: translateY(-15%);
     left: 50%;
@@ -533,7 +601,7 @@ a{
   .cover .cover-content p{
     font-size: 15px;
     color: white;
-    
+
   }
   .cover .cover-content span{
     display: none;
@@ -566,6 +634,9 @@ a{
     margin-left: auto;
     margin-right: auto;
   }
+  .counter .container{
+    padding: 0 8%;
+  }
   .grid{
     display: grid;
     grid-gap: 20px;
@@ -593,7 +664,9 @@ a{
     padding: 10px;
     font-size: 18px;
   }
-
+  .cover{
+    margin-top: 98px;
+  }
   .cover .cover-content{
     padding: 20px;
     top: 35%;
@@ -666,7 +739,9 @@ a{
     padding: 20px;
     font-size: 20px;
   }
-
+  .cover{
+    margin-top: 0px;
+  }
   .cover .cover-content{
     padding: 20px;
     top: 45%;
