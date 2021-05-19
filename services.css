@@ -18,6 +18,9 @@ a{
   display: table;
 }
 /* Start Nav*/
+.mobile-nav{
+  display: none;
+}
 .nav{
   background-color: white;
   position: fixed;

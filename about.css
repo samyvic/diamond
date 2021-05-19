@@ -18,6 +18,9 @@ a{
   display: table;
 }
 /* Start Nav*/
+.mobile-nav{
+  display: none;
+}
 .nav{
   background-color: white;
   position: fixed;
@@ -61,75 +64,7 @@ a{
 
 /* Start Cover*/
 
-/* Responsive */
-@media(max-width: 575px){
-  .mobile-nav{
-    display: block;
-    background-color: white;
-    position: fixed;
-    top:0;
-    width: 100%;
-    z-index: 1000;
-    overflow: hidden;
-  }
-  .mobile-nav .mobile-container {
-    background-color: #fff;
-    overflow: hidden;
-  }
-  .mobile-nav .topnav{
-    overflow: hidden;
-    display: block;
-    position: relative;
-  }
-  #myLinks {
-    display: none;
-  }
-  .myLinks a{
-    display: none;
-    color: #1259a1;
-    padding: 16px;
-    text-decoration: none;
-    font-size: 18px;
-    display: block;
-  }
-  .mobile-nav .logo{
-    float: left;
-  }
-  .mobile-nav img {
-    vertical-align: middle;
-    width: 100px;
-    padding: 20px;
 
-    display: block;
-  }
-  .mobile-nav .topnav a.icon {
-    background: #FD8505;
-    color: white;
-    display: block;
-    position: absolute;
-    font-size: 30px;
-    right: 0;
-    top: 0;
-    padding: 25px;
-  }
-  .mobile-nav .myLinks a:hover {
-    background-color: #FD8505;
-    color: white;
-  }
-  .mobile-nav .active{
-    background-color: #FD8505;
-    color: white;
-    font-weight: bold;
-  }
-
-  .nav{
-    display: none;
-  }
-
-.cover{
-  overflow: hidden;
-  margin-top: 75px;
-}
 .cover .container{
   height:auto;
 }
@@ -262,10 +197,73 @@ a{
 
 /* Responsive */
 @media(max-width: 575px){
-  .nav span{
-    padding: 20px 8px;
-    font-size: 16px;
+  .mobile-nav{
+    display: block;
+    background-color: white;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 1000;
+    overflow: hidden;
   }
+  .mobile-nav .mobile-container {
+    background-color: #fff;
+    overflow: hidden;
+  }
+  .mobile-nav .topnav{
+    overflow: hidden;
+    display: block;
+    position: relative;
+  }
+  #myLinks {
+    display: none;
+  }
+  .myLinks a{
+    display: none;
+    color: #1259a1;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+  }
+  .mobile-nav .logo{
+    float: left;
+  }
+  .mobile-nav img {
+    vertical-align: middle;
+    width: 100px;
+    padding: 20px;
+
+    display: block;
+  }
+  .mobile-nav .topnav a.icon {
+    background: #FD8505;
+    color: white;
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    right: 0;
+    top: 0;
+    padding: 25px;
+  }
+  .mobile-nav .myLinks a:hover {
+    background-color: #FD8505;
+    color: white;
+  }
+  .mobile-nav .active{
+    background-color: #FD8505;
+    color: white;
+    font-weight: bold;
+  }
+
+  .nav{
+    display: none;
+  }
+
+.cover{
+  overflow: hidden;
+  margin-top: 75px;
+}
   .nav img {
     margin: 20px 10px;
   }

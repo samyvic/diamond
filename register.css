@@ -18,6 +18,9 @@ a{
   display: table;
 }
 /* Start Nav*/
+.mobile-nav{
+  display: none;
+}
 .nav{
   background-color: white;
   position: fixed;
@@ -374,7 +377,7 @@ form{
   .cover{
     margin-top: 75px;
   }
-  
+
   .subscribe .box-3{
     width:90%;
     margin: 10px 5%;
