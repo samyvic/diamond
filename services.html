@@ -47,6 +47,28 @@
       </div>
     </div>
     <!-- End Navbar -->
+    
+    <!-- Start Mobile Navbar -->
+    <div class="mobile-nav">
+      <div class="mobile-container">
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+              <a href="index.html" class="logo"> <img src="logo2.jpg" alt=""> </a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fas fa-bars"></i>
+              </a>
+        </div>
+
+        <div id="myLinks" class="myLinks">
+          <a href="index.html"><span>الرئيسية</span></a>
+          <a href="about.html"><span>من نحن</span></a>
+          <a href="services.html" class="active"><span>خدماتنا</span></a>
+          <a href="register.html"><span>سجل معنا</span></a>
+        </div>
+
+      </div>
+    </div>
+    <!-- End mobile Navbar -->
 
     <!-- Start Cover -->
     <div class="cover">
@@ -100,7 +122,7 @@
               <a class="w3-btn-floating w3-display-right" onclick="plusDivs(this,1)">&#10095;</a>
             </div>
             <div class="ser5 ser" id="ser5">
-              
+
               <img src="ser2-1.jpg" class="mySlides">
               <img src="ser3-1.jpg" class="mySlides">
               <a class="w3-btn-floating w3-display-left" onclick="plusDivs(this,-1)">&#10094;</a>
@@ -135,6 +157,19 @@
         <p>جميع الحقوق محفوظة &copy; 2021</p>
       </div>
     </div>
+    <!-- End Footer -->
+
+    <!-- Mobile Nav -->
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
 
     <script>
     var sliderObjects = [];

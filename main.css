@@ -506,7 +506,6 @@ a{
     overflow: hidden;
   }
   .mobile-nav .mobile-container {
-
     background-color: #fff;
     overflow: hidden;
   }
@@ -515,11 +514,9 @@ a{
     display: block;
     position: relative;
   }
-
   #myLinks {
     display: none;
   }
-
   .myLinks a{
     display: none;
     color: #1259a1;
@@ -548,26 +545,20 @@ a{
     top: 0;
     padding: 25px;
   }
-
   .mobile-nav .myLinks a:hover {
     background-color: #FD8505;
     color: white;
   }
-
   .mobile-nav .active{
     background-color: #FD8505;
     color: white;
     font-weight: bold;
   }
-
-
   .nav{
     display: none;
   }
-
   .cover{
-    margin-top: 70px;
-
+    margin-top: 75px;
   }
   .img-overlay{
     opacity: 0.75;
@@ -576,7 +567,7 @@ a{
     margin-left: auto;
     margin-right: auto;
     padding: 30px 3px;
-    top: 20%;
+    top: 15%;
     -ms-transform: translateY(-15%);
     transform: translateY(-15%);
     left: 50%;
